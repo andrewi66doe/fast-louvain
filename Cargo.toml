@@ -14,8 +14,7 @@ path = "modules/bin/louvain.rs"
 members = ["modules/cli", "modules/application", "modules/domain"]
 
 [dependencies]
-# Workspace dependencies
-louvain-cli = "0.0.0"
+louvain-cli = { path = "modules/cli" }
 
 [patch.crates-io]
 louvain-cli = { path = "modules/cli" }

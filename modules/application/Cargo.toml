@@ -6,7 +6,7 @@ publish = false
 
 [dependencies]
 # Workspace dependencies
-louvain-domain = "0.0.0"
+louvain-domain = { path = "../domain" }
 
 # External dependencies
 rand = "0.8.5"
